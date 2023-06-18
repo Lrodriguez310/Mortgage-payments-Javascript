@@ -1,0 +1,76 @@
+body {
+
+    background: #DFE3E4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #DFE3E4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #DFE3E4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.loanForm {
+    background-color: rgb(231, 231, 231);
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.loanForm input {
+    width: 100%;
+    padding: .5rem;
+}
+
+.loanForm button {
+    float: right;
+}
+
+.loanInfo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#paymentTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#payment {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2B404F;
+}
+
+#loanBreakDown {
+    text-align: center;
+}
+
+#tableheader {
+    background-color: #2B404F;
+
+}
+
+#totalCost {
+    font-weight: bold;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+/* Green */
+.btn-cfOrange {
+    border-color: #ff993b;
+    color: #2B404F;
+}
+
+.btn-cfOrange:hover {
+    background-color: #ff993b;
+    color: #212121;
+}
